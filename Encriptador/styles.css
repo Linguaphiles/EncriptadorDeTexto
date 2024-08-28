@@ -1,0 +1,121 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    margin-bottom: 20px;
+    color: #1a202c;
+}
+
+main {
+    display: flex;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 900px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input-container,
+.output-container {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: none;
+    background-color: #f7fafc;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+#botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn-accion {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3b82f6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    width: 48%;
+    transition: background-color 0.3s;
+}
+
+.btn-accion:hover {
+    background-color: #2563eb;
+}
+
+.btn-copiar {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #10b981;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-copiar:hover {
+    background-color: #059669;
+}
+
+.mensaje-vacio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    color: #6b7280;
+}
+
+.mensaje-vacio img {
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+.mensaje-vacio p {
+    font-size: 18px;
+}
+
+.mensaje-vacio .sub-texto {
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #4a5568;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Texto</h1>
+    </header>
+    <main>
+        <section id="encriptador">
+            <div class="input-container">
+                <textarea id="input-texto" placeholder="Ingrese el texto aquí..."></textarea>
+                <div id="botones">
+                    <button id="btn-encriptar" class="btn-accion">Encriptar</button>
+                    <button id="btn-desencriptar" class="btn-accion">Desencriptar</button>
+                </div>
+            </div>
+            <div class="output-container">
+                <!-- Div que contiene la imagen y el mensaje -->
+                <div id="mensaje-vacio" class="mensaje-vacio">
+                    <img src="img/foto.png" alt="Descripción de la imagen">
+                    <p>Ningún mensaje fue encontrado</p>
+                    <p class="sub-texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <!-- Área de texto donde aparecerá el texto encriptado/desencriptado -->
+                <textarea id="output-texto" readonly placeholder="El texto aparecerá aquí..." style="display: none;"></textarea>
+                <button id="btn-copiar" class="btn-copiar" style="display: none;">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Constanza Jara Morales, 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
